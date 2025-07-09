@@ -18,6 +18,10 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/store', storeRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Store Rating App backend is running!');
+});
+
 pool.connect((err, client, release) => {
   if (err) {
     console.error('Error connecting to the database:', err.stack);
