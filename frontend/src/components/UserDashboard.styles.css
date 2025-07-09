@@ -1,0 +1,90 @@
+.user-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-logout-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.user-logout-button:hover {
+  background-color: #c82333;
+}
+
+.user-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f8f8f8;
+}
+
+.user-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.update-pass-button {
+  background-color: #1e741e;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.update-pass-button:hover {
+  background-color: #0d4b0d;
+}
+
+.submit-pop-btn {
+  display: block;
+  margin-top: 10px;
+}
+
+.pop-input {
+  display: block;
+  margin-top: 10px;
+}
